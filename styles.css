@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap'); 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-mobile.svg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 16px;
+    background-color: hsl(225, 100%, 94%);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    max-width: 450px;
+    overflow: hidden;
+    border-radius: 20px;
+    
+}
+.text-container{
+    text-align: center;
+    padding: 5%;
+}
+.title{
+    padding: 0px 20px 15px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 800;
+    font-size: 32px;
+   
+}
+.text-container p.submit{
+    color: black;
+    margin-bottom: 20px;
+}
+.plain-box{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.plain-box a:hover{
+    text-decoration: none;
+    color: hsl(245,75%,52%);
+}
+.plain-box-left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.plain-box-left div{
+    margin-left: 25px;
+}
+.plain-box-left h5{
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+}
+.plain-box-left p{
+    font-weight: 900;
+    font-size: 14px;
+    color: hsl(223, 47%, 23%);
+    opacity: 50%;
+    
+}
+.img{
+    height: 60px;
+}
+.plain-box a{
+    font-weight:700;
+    
+   
+    margin-top: 20px;
+
+}
+.btn1 {
+    text-decoration: none;
+    display: block;
+    background-color: hsl(245,75%,52%);
+    padding: 20px 0;
+    color: white;
+    border-radius: 20px;
+    font-weight: 800;
+    margin: 30px 0;
+}
+a.btn1:hover{
+    background-color: hsl(223, 47%, 23%);
+}
+.btn2{
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    opacity: 50%;
+}
+a.btn2:hover{
+    
+    color: black;
+    opacity: 100%;
+}
+@media(max-width:425px)
+{
+    body{
+        background-image: url(./images/pattern-background-desktop.svg);
+        font-size: 14px;
+    }
+}
